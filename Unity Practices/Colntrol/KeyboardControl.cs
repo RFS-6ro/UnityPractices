@@ -59,17 +59,17 @@ public class KeyboardControl
         throw new System.Exception("missing key reference");
     }
     
-    public float mouseSencetivity
+    public float mouseSencitivity
     {
         get
         {
-            return _sencityvity;
+            return _sencitivity;
         }
         set
         {
             if (value > 0 && value < 1)
             {
-                _sencityvity = value;
+                _sencitivity = value;
             }
             else
             {
